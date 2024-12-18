@@ -21,7 +21,7 @@ const Page = () => {
         <div className="container mx-auto flex flex-col items-center justify-center flex-wrap mt-20">
             <div className="flex-grow p-4 max-w-[310px]">
                 <h2 className="text-3xl">Sign up</h2>
-                <div className="text-lg mt-5">Please sign in to your Tiffany Account.</div>
+                <div className="text-lg mt-5">Please sign in to your Midas Account.</div>
                 <div
                     className="mt-5 max-w-[310px] h-[50px] flex justify-center items-center bg-black text-white cursor-pointer border border-black hover:bg-teal-200 hover:text-black transition duration-500"
                     onClick={() => router.push('/customer/login')}

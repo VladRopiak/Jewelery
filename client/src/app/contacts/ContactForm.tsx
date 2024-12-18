@@ -20,7 +20,7 @@ const ContactForm = () => {
 
         try {
             contactService.sendContactMessage(
-                'TO EMAIL CHANGE ON ENV',
+                'vladropak88@gmail.com',
                 email,
                 firstName,
                 lastName,
